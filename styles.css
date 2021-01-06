@@ -1,0 +1,47 @@
+*{
+	font-family: Arial;
+}
+body{
+	align-items: center;
+}
+header{
+	display: flex;
+	justify-content: center;
+}
+h1{
+	width: 600px;
+	align-self: center;
+}
+section{
+	background-color: lightgray;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+section.post{
+	width: 600px;
+	margin: auto;
+}
+.post{
+	background-color: white;
+	width: 600px;
+	margin: auto;
+	margin-top: 60px;
+}
+.frameHeader{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10px;
+}
+.frameHeader>span{
+	margin-top: 16px;
+	margin-right: 10px;
+	color: gray;
+}
+.frame img{
+	width: 100%;
+}
+.comments>p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
